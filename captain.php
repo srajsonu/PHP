@@ -10,6 +10,7 @@
   if ($p==$r) {
     $ins="INSERT INTO A1 SET username='$u',Email='$e',Password='$p'";
     $a->query($ins);
+    echo "Account Successfully Created";
   }else {
     echo "Password doesn't Match";
   }
