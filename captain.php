@@ -2,7 +2,7 @@
  	$u=$_POST['username'];
  	$e=$_POST['Email'];
  	$p=$_POST['Password'];
-  $r=$_POST['Re-enter'];
+   $r=$_POST['Re-enter'];
 
 
  	$a = mysqli_connect('192.168.64.2','root','','Alexa');
